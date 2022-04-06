@@ -3,9 +3,9 @@ float B,H,A;
 main()
 {
 	printf("\n \n WRITE THE LENGHT:	>	");
-	scanf("%f",&B);
-	printf("\n \n WRITE THE WIDTH:	>	");
 	scanf("%f",&H);
+	printf("\n \n WRITE THE WIDTH:	>	");
+	scanf("%f",&B);
 	if (B==0 || H==0)
 	{
 		printf("\n \n THE ENTERED VALUES ARE INVALID");
