@@ -1,7 +1,10 @@
 #include <stdio.h>
 int AGE;
+char NAME[30];
 main()
 {
+	printf("\n \nWHAT IS YOUR NAME?:	>	");
+	scanf("%s",&NAME);
 	printf("\n \nHOW OLD ARE YOU?:	>	");
 	scanf("%d",&AGE);
 
@@ -12,8 +15,6 @@ main()
 	
 	else
 	{
-		printf("\n \nWELCOME :)");
+		printf("\n \nHI %s, WELCOME :)", NAME);
 	}
 }
-
-
